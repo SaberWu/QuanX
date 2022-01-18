@@ -44,7 +44,11 @@ static=黑白名单, proxy, direct, 美国, 新加坡, 日本, 韩国, 香港, �
 https://yyds.fovi.tk/psboruc34813owyhr.html, tag=222, update-interval=172800, opt-parser=true, enabled=true
 https://update.glados-config.com/quantumultx/54006/58e8938d63046603, tag=111, update-interval=172800, opt-parser=true, enabled=true
 https://niaocloud-rss.com/link/A0pGMwBrH3VInH2q?list=quantumultx#info=1&emoji=2&udp=1&tfo=1&replace=(tag.*)@$1，aead=false, tag=小鸟云, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Rookie.png, update-interval=172800, opt-parser=true, enabled=true
+<<<<<<< HEAD
 http://yun.mooncloud.bike/link/ZiqofPQOy0K5bPrL?sub=3&extend=1#info=1&emoji=2&udp=1&tfo=1&replace=(tag.*)@$1，aead=false, tag=快乐学习加速器, update-interval=172800, opt-parser=true, enabled=false
+=======
+http://yun.mooncloud.bike/link/ZiqofPQOy0K5bPrL?sub=3&extend=1#info=1&emoji=2&udp=1&tfo=1&replace=(tag.*)@$1，aead=false, tag=快乐学习加速器, update-interval=172800, opt-parser=true, enabled=true
+>>>>>>> 73e8cdb2564df6dfc89cc6ef731090db429d5aa9
 https://1rmb.tk/vmess/sub, tag=订阅④关注微信公众号：ios黑科技, update-interval=172800, opt-parser=true, enabled=true
 https://free.riyumi.xyz//link/NQG8KsaroAMPDdE4?sub=3&extend=1#info=1&emoji=2&udp=1&tfo=1&replace=(tag.*)@$1，aead=false, tag=日本迷, update-interval=172800, opt-parser=true, enabled=false
 https://a.luxury/link/4qdzwoPthmVn9hnV?list=quantumultx#info=1&emoji=2&udp=1&tfo=1&out=几鸡+公益+捐赠+包括+套餐+中继中&replace=(tag.*)@$1，aead=false, tag=几鸡, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Guguex.png, update-interval=172800, opt-parser=true, enabled=true
