@@ -208,6 +208,10 @@ final,全球加速
 
 #本地脚本
 [rewrite_local]
+
+#番茄小说Cookie获取
+luckycat/novel/v1/task/sign_in/* url script-request-header https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js
+
 #麻豆短视频 by:Luke
 ^https:\/\/mda\..+\.site\/api\/(auth\/login|mine\/myHome) url script-response-body https://raw.githubusercontent.com/471357825/Luke/main/madou.js
 
@@ -323,21 +327,20 @@ https:\/\/ikuuu\.co url script-request-header https://raw.githubusercontent.com/
 10 1-23 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js, tag=中青阅读自动阅读, img-url=https://qxzy.top/rules/QuantumultX/img/youth.png, enabled=true
 */30 0-23 * * * https://ghproxy.com/https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js, tag=中青看点极速版, img-url=https://qxzy.top/rules/QuantumultX/img/youth.png, enabled=true
 30 6 * * * https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js, tag=中青看看赚, img-url=https://qxzy.top/rules/QuantumultX/img/youth.png, enabled=true
-26 2-23 * * * https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js, tag=番茄小说, img-url=https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs.png, enabled=true
-0 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js, tag=机场签到, img-url=https://qxzy.top/rules/QuantumultX/img/airport.png, enabled=false
-
+*/30 9-22 * * * https://ghproxy.com/https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/fqxs.js, tag=番茄小说, img-url=https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs.png, enabled=false
 1 0 * * * https://ghproxy.com/https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=中国电信, img-url=https://ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/10000.png, enabled=true
 
+// Sub-Store
 0 12 * * * https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/cron-sync-artifacts.js, tag=Sub-Store, img-url=https://raw.githubusercontent.com/58xinian/icon/master/Sub-Store1.png, enabled=true
 
 // GeoIP查询 - ip.sb
 event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体-解锁查询, img-url=checkmark.seal.system, enabled=true
 event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/geo_location.js, tag=GeoIP 查询, img-url=location.fill.viewfinder.system
 
-//  YouTube/Netflix 解锁查询
+// YouTube/Netflix 解锁查询
 event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/switch-check-ytb.js, tag=YouTube 切换, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png, enabled=true
 
-//YouTube Premium 查询
+// YouTube Premium 查询
 event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/switch-check-nf.js, tag=Netflix 切换, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png, enabled=true
 
 event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/switch-check-disneyplus.js, tag=Disneyᐩ 切换, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png, enabled=true
@@ -356,6 +359,6 @@ https://ghproxy.com/https://raw.githubusercontent.com/chavyleung/scripts/master/
 passphrase = 2011662D
 p12 = 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
 
-hostname = *.xiaoxiaoapps.com, *.xiaoxiaoimg.com, api.mvmtv.com, ms.jr.jd.com, ios.baertt.com, sunnytown.hyskgame.com, 110.43.90.61, wx.10086.cn, mda.*.site, e.189.cn, m.*, huzhu.ssjann.com, ikuuu.co, nine.xj618.cn, www.qianhe5.com, iosvsh.zwzanwm.cn, m.client.10010.com, api.m.jd.com, app.hubonews.com, passport.biligame.com, s6301ws.shuizhihuo.com, s8301ws.6ql888.com, m.samh.xndm.tech, bububao.duoshoutuan.com, *.googlevideo.com, jk.5apk.cn, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, awmattack.*.com, kd.youth.cn, api.*.xyz, 1008610010.laikanshu.top, c.banghankeji.com, vip.75787.com, cf-api.douzhuanapi.cn
+hostname = *.xiaoxiaoapps.com, *.xiaoxiaoimg.com, api.mvmtv.com, ms.jr.jd.com, ios.baertt.com, sunnytown.hyskgame.com, 110.43.90.61, wx.10086.cn, mda.*.site, e.189.cn, m.*, huzhu.ssjann.com, ikuuu.co, nine.xj618.cn, www.qianhe5.com, iosvsh.zwzanwm.cn, m.client.10010.com, api.m.jd.com, app.hubonews.com, passport.biligame.com, s6301ws.shuizhihuo.com, s8301ws.6ql888.com, m.samh.xndm.tech, bububao.duoshoutuan.com, *.googlevideo.com, jk.5apk.cn, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, awmattack.*.com, kd.youth.cn, api.*.xyz, 1008610010.laikanshu.top, c.banghankeji.com, vip.75787.com, cf-api.douzhuanapi.cn, *.snssdk.com
 
 skip_validating_cert = true
