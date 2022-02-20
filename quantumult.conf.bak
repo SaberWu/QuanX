@@ -43,9 +43,9 @@ static=电报代理, proxy, direct, 新加坡, IPLC, 台湾, img-url=https://ghp
 static=黑白名单, proxy, direct, 美国, 新加坡, 日本, 韩国, 香港, 台湾, 特殊, IPLC, img-url=https://ghproxy.com/https://raw.githubusercontent.com/sngxmini/icons/main/genshin/nvshi.png
 
 [server_remote]
-https://yyds.fovi.tk/psboruc34813owyhr.html, tag=222, update-interval=172800, opt-parser=true, enabled=true
-https://update.glados-config.com/quantumultx/54006/58e8938d63046603, tag=111, update-interval=172800, opt-parser=true, enabled=true
-https://niaocloud-rss.com/link/A0pGMwBrH3VInH2q?list=quantumultx#info=1&emoji=2&udp=1&tfo=1&replace=(tag.*)@$1，aead=false, tag=小鸟云, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Rookie.png, update-interval=172800, opt-parser=true, enabled=true
+https://yyds.fovi.tk/psboruc34813owyhr.html, tag=222, update-interval=172800, opt-parser=true, enabled=false
+https://update.glados-config.com/quantumultx/54006/58e8938d63046603, tag=111, update-interval=172800, opt-parser=true, enabled=false
+https://niaocloud-rss.com/link/A0pGMwBrH3VInH2q?list=quantumultx#info=1&emoji=2&udp=1&tfo=1&replace=(tag.*)@$1，aead=false, tag=小鸟云, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/Rookie.png, update-interval=172800, opt-parser=true, enabled=false
 http://yun.mooncloud.bike/link/ZiqofPQOy0K5bPrL?sub=3&extend=1#info=1&emoji=2&udp=1&tfo=1&replace=(tag.*)@$1，aead=false, tag=快乐学习加速器, update-interval=172800, opt-parser=true, enabled=false
 https://qingyun123.com/api/v1/client/subscribe?token=dd79745cc3c1f8097c7064a2b8605f19, tag=qingyun123, update-interval=172800, opt-parser=true, enabled=true
 https://sub.dot86.xyz/link/NQG8KsaroAMPDdE4?sub=3&extend=1#info=1&emoji=2&udp=1&tfo=1&replace=(tag.*)@$1，aead=false, tag=dot86, update-interval=172800, opt-parser=true, enabled=true
@@ -276,58 +276,6 @@ https:\/\/ikuuu\.co url script-request-header https://raw.githubusercontent.com/
 
 # 定时脚本任务
 [task_local]
-14 10 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/main/Task/JD/jd_sign_graphics.js, tag=京东签到图形验证, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-0 0 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/main/Task/JD/jd_tyt.js, tag=推一推, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-31 20-23/1 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/main/Task/JD/jd_redrain_half.js, tag=整点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-0 * * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/main/Task/JD/jd_redrain.js, tag=整点京豆雨, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-10 0,2 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_split.js, tag=金榜年终奖, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-0 0 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_ddworld_exchange.js, tag=东东世界兑换, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
-10 7 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_lotteryMachine.js, tag=抽奖机, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jdlottery.png, enabled=true
-10-20/5 12 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_live.js, tag=京东直播, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-20 1,8 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_jxsign.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
-0 0-23/4 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-12 0-23/6 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_pigPet.js, tag=京东金融养猪猪, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyz.png, enabled=true
-21 9 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_MMdou.js, tag=MM领京豆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-17 10 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_ddworld.js, tag=东东世界, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-18 0-23/2 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_wealth_island.js, tag=财富大陆, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-18 0,1,9,14,18 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_wealth_island_help.js, tag=财富大陆互助, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-0 0,6-23 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true
-5 * * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_cfd_mooncake.js, tag=京喜财富岛合成月饼, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true
-30 * * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_cfd_loop.js, tag=京喜财富岛热气球, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true
-11 * * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_superMarket.js, tag=东东超市, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true
-10 0 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_kd.js, tag=京东快递签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png, enabled=true
-30 8,22 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_bean_change.js, tag=京豆变动通知, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
-20 * * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_jxmc.js, tag=京喜牧场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_jxmc.png, enabled=true
-10 7 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_bean_home.js, tag=领京豆额外奖励, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png, enabled=true
-0 0 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_blueCoin.js, tag=东东超市兑换奖品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true
-11 0 * * 1 https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_delCoupon.js, tag=删除优惠券, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
-1 0,11,21 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_jump.js, tag=跳跳乐瓜分京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
-3 0-23/2 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_moneyTree.js, tag=摇钱树, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyqs.png, enabled=true
-1 1 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_redPacket.js, tag=京东锦鲤红包, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true
-8 0-23/3 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_speed.js, tag=天天加速, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png, enabled=true
-10 7 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_car.js, tag=京东汽车, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_car.png, enabled=true
-0 0 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_car_exchange.js, tag=京东汽车兑换, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_car.png, enabled=true
-10 * * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_dreamFactory.js, tag=京喜工厂, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true
-50 * * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_dreamFactory_help.js, tag=京喜工厂助力, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true
-5 6-18/6 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_fruit.js, tag=东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true
-13 6 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/main/Task/JD/jd_gold_sign.js, tag=京东金榜, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png, enabled=true
-13 1,22 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_gold_creator.js, tag=金榜创造营, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
-13 1,6,22 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_health.js, tag=东东健康社区, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
-5-45/20 * * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_health_collect.js, tag=东东健康社区收能量, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
-10 * * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_factory.js, tag=东东工厂, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png, enabled=true
-10 0 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png, enabled=true
-10 0 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_jintie.js, tag=领金贴, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
-0 9,12,18 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_jxnc.js, tag=京喜农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxnc.png, enabled=true
-4 10 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_market_lottery.js, tag=幸运大转盘, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-10 7 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_ms.js, tag=京东秒秒币, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_ms.jpg, enabled=true
-20 * * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_big_winner.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
-15 6-18/6 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_pet.js, tag=东东萌宠, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png, enabled=true
-1 7-21/2 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_plantBean.js, tag=种豆得豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png, enabled=true
-10 0 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_shop.js, tag=进店领豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_shop.png, enabled=true
-10 0,22 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_speed_redpocke.js, tag=京东极速版红包, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
-0 7,19 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_speed_sign.js, tag=京东极速版签到（40min）, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
-55 23 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/JD/jd_unsubscribe.js, tag=取关京东店铺和商品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
-0 9 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/main/Task/JD/JD_DailyBonus.js, tag=京东, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 10 1-23 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js, tag=中青阅读自动阅读, img-url=https://qxzy.top/rules/QuantumultX/img/youth.png, enabled=true
 */30 0-23 * * * https://ghproxy.com/https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js, tag=中青看点极速版, img-url=https://qxzy.top/rules/QuantumultX/img/youth.png, enabled=true
 30 6 * * * https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js, tag=中青看看赚, img-url=https://qxzy.top/rules/QuantumultX/img/youth.png, enabled=true
